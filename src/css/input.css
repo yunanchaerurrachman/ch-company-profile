@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .nav-link-content {
+    @apply text-xl font-semibold hover:underline hover:underline-offset-4;
+  }
+
+  .btnMenu, .btnExit {
+    @apply px-3 py-0.5 rounded-2xl bg-black font-semibold text-sm text-white min-[172px]:px-5 min-[172px]:py-2 md:text-xl;
+  }
+
+  .menu-link-content {
+    @apply text-xs min-[320px]:text-2xl min-[360px]:text-4xl font-bold;
+  }
+
+  .section {
+    @apply py-14 max-w-full;
+  }
+  
+  .title, .menu-link {
+    @apply border-y border-black py-3 min-[172px]:py-4 md:py-5;
+  }
+  
+  .title-content {
+    @apply text-2xl font-bold min-[172px]:text-3xl min-[420px]:text-4xl md:text-5xl;
+  }
+
+  .services-content, .home-content {
+    @apply font-semibold md:text-2xl lg:text-base;
+  }
+
+  .about-content {
+    @apply font-semibold mb-3 md:text-2xl lg:text-base;
+  }
+
+  .container-clients-img {
+    @apply  my-4 md:grid md:grid-cols-2 gap-3 lg:grid-cols-3;
+  }
+
+  .clients-img {
+    @apply border mb-3 border-black rounded-2xl;
+  }
+
+  .clients-img-content {
+    @apply m-auto px-10 py-7 min-[172px]:py-10;
+  }
+
+  .img-services-content {
+    @apply my-4 rounded-2xl;
+  }
+
+  .container-services-content {
+    @apply lg:grid lg:grid-cols-3 gap-7;
+  }
+
+  .title-services {
+    @apply border-y border-black py-3 mb-4 min-[172px]:py-4 md:py-5;
+  }
+
+  .title-services-content {
+    @apply text-xl font-bold min-[172px]:text-2xl min-[420px]:text-3xl md:text-4xl;
+  }
+
+  .footer-content {
+    @apply font-semibold cursor-pointer md:text-2xl lg:text-base hover:underline hover:underline-offset-4;
+  }
+}
