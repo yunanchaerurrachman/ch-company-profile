@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "postcss src/css/input.css -o dist/style.css",
-    "build": "cross-env NODE_ENV=production postcss src/css/input.css -o dist/style.css"
+    "dev": "postcss src/tailwind.css -o dist/style.css",
+    "build": "cross-env NODE_ENV=production postcss src/tailwind.css -o dist/style.css"
   },
   "keywords": [],
   "author": "",
